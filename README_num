@@ -1,0 +1,42 @@
+/*
+ * Filename: README_num
+ * Author: HanJie Zhan
+ * UserId: cs30s120cg
+ * Date:07/18/2020
+ * Sources of help: website.
+ */
+ 
+
+1.Decimal to 2's compliment: 1111 1111 0101 1110
+2's compliment to hexadecimal: 0xFF5E
+
+2.Hexadecimal to 2's compliment: 1111 1111 1010 0010
+2's compliment to decimal: -94
+
+3.convert 10.375 binary:1010.011
+1.010011*2^3
+127+3=130
+130 to binary:1000 0010
+IEEE floting point: 0100 0001 0010 0110 0000 0000 0000 0000
+Convert 10.375 to single-precision IEEE floting point (hexadecimal) representation: 0x41260000
+
+4.convert 0xC18E8000 binary:1100 0001 1000 1110 1000 0000 0000 0000
+binary to decimal:1000 0011 = 131
+127-131=4
+-(2^4*1.00011101) = -(10001.1101)
+binary to decimal: -17.8125
+Convert 0xC18E8000 from single-precision IEEE floating point to decimal representation: -17.8125
+
+5.
+long nums[]={1,7,13,18};
+long *ptr = nums;
+ptr = ptr + 2;
+long x = *ptr;
+
+6.
+ls -l /home/linux/ieng6/cs30s120/cs30s120cg/pa2 | grep ^-| wc -l
+
+7.
+I will test(may be using gdb) the code, to see where is my main logical issue and fixed that. If the problem can not fixed I will turn in whatever I have to get partial credit.
+
+
