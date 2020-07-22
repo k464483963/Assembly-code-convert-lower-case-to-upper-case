@@ -6,10 +6,45 @@
  * Sources of help: none
  */
 
-Description
+Description:
 -----------
      This project try to store the message in the register and try to convert 
 all the character from lower case to Upper case.
+
+How to complie:
+-----------
+     To compile this project, simply log in ucsd account in the terminal.
+enter the pa2 directory and enter command gcc -g -o allcaps allcaps.s
+
+How to run:
+-----------
+     To run this project, type ./executable name. for example:./allcaps
+
+Normal output:
+-----------
+     Normal output is convert all char from lower case to upper case and then
+ printed to stdout. An example of normal output would be the following:
+cs30s120cg@pi-cluster-103:~/pa2$ ./allcaps
+HELLO WORLD!
+
+Abnormal output:
+-----------
+     None
+
+Testing:
+-----------
+     None
+
+Anythings else:
+-----------
+     This project not getting any input. It just simple print out the string
+from lower case to upper case.
+
+Answers to PA specific questions:
+-----------
+None
+
+
 
 
  
